@@ -8,6 +8,7 @@ import android.support.v7.widget.AppCompatTextView;
 import android.widget.TextView;
 
 import com.pet.wiseapp.R;
+import com.pet.wiseapp.db.DbUtils;
 import com.pet.wiseapp.ui.home.HomeActivity;
 import com.pet.wiseapp.utils.SplashScreenLoader;
 
@@ -23,6 +24,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         initUI();
+        DbUtils.initDB(this);
     }
 
     private void initUI() {

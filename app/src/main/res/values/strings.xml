@@ -7,4 +7,8 @@
     <string name="generate_aphorism">Новая мудрость</string>
     <string name="wise_title">Твоя мудрость от Совы на сегодня…</string>
     <string name="app_details">Курсовая работа студентки Росляковой Дарьи Сергеевны, група ИКН-301</string>
+    <string name="add_aphorism">Добавить свою мудрость</string>
+    <string name="ok">OK</string>
+    <string name="aphorism_text_cannot_be_empty">Текст афоризма не может быть пустым</string>
+    <string name="enter_aphorism">Введите текст афоризма</string>
 </resources>
